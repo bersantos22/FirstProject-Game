@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="icon" href="images/pokeball.png">
+    <title>Dungeomon</title>
+</head>
+<body>
+    <div class='body-div'>
+        <div class='title'>
+            <img class='title-img' src="./images/THE-EPIC-DUNGEMON-FIGHT.png" alt="title-image"/>
+        </div>
+        <div class='hp-div'>
+            <p id = 'hp1'></p>
+            <p id = 'hp2'></p>
+        </div>
+
+        <div class='players-div'>
+            <div id= 'player1'></div>
+            <div id='player2'></div>
+        </div>
+
+        <div class='text-fight'>
+            <b><p colspan="2" id='comment'></p></b>
+        </div>
+     
+        <div class='btns'> 
+            <button class="'btn" id='m0'></button><br>
+            <button class="'btn" id='m1'></button><br>
+            <button class="'btn" id='m2'></button><br>
+            <button class="'btn" id='m3'></button><br>            
+        </div>
+   
+    </div>
+    <audio controls='controls' autoplay='autoplay' loop>
+        <source src="song/pokemonaudio.mp3" type="audio/mpeg">
+    </audio>
+    <script src="./javascript/data.js"></script>
+    <script src="./javascript/index.js"></script>
+</body>
+</html>
